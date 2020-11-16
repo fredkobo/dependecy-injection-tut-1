@@ -5,4 +5,6 @@ import dagger.Component;
 @Component
 interface CarComponent {
     Car getCar();
+
+    void inject(MainActivity mainActivity);
 }
